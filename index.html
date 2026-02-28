@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    
+    <p id = "message"> nothing</p>
+    <ul id="list"> </ul>
+    <input type = "text" id = "pasting" placeholder="Type anything">
+    <button onclick="copying()"> click me </button>
+    <script>
+        let items = [];
+        function copying(){
+            let text = document.getElementById("pasting").value
+            if (text === ""){
+                document.getElementById("message").innerText = "Type anything u dumbass"
+            } 
+            else{
+                items.push(text);
+                let list = document.getElementById("list")
+                list.innerHTML = ""
+                for(let i = 0;i<items.length;i++){
+                    list.innerHTML += "<li>" + items[i] + "</li>" 
+                }
+            }
+        }    
+    </script>
+    <h2 id = "MS1"> THIS WILL change
+        </h2>
+        <button onclick="saybye()"> dont click!
+        </button>
+        <script>
+            function saybye(){
+                document.getElementById("MS1").innerText = "i said u dont click"
+            }
+        </script>
+
+        
+
+        
+    </body>
+</html>
