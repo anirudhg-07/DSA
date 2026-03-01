@@ -16,12 +16,9 @@ The repo is organized into folders with implementations of fundamental data stru
 - **Dynamic Programming**
 - **Recursion Techniques**
 
-> *Note: You can explore specific implementations inside the `Basics` folder and add more topics as you go.*  [oai_citation:1‡GitHub](https://github.com/anirudhg-07/DSA)
-
 ## 🚀 Features
 
 ✔️ Simple, beginner-focused code  
 ✔️ Easy-to-understand Java implementations  
 ✔️ Great for practicing for interviews and competitive coding
 
-## 🗂 Repository Structure
