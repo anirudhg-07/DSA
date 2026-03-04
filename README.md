@@ -8,13 +8,7 @@ This repository contains basic DSA implementations to help learners understand c
 
 The repo is organized into folders with implementations of fundamental data structures and algorithms, such as:
 
-- **Arrays & Strings**
-- **Linked Lists**
-- **Stacks & Queues**
-- **Trees and Graphs**
-- **Sorting & Searching**
-- **Dynamic Programming**
-- **Recursion Techniques**
+- **Arrays(Insertion,Searching,Deletion)**
 
 ## 🚀 Features
 
